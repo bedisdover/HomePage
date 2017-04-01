@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>首页 | bedisdover的个人主页</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+</head>
+<body class="loading">
+<div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
+
+        <!-- Header -->
+        <header id="header">
+            <h1>bedisdover的个人主页</h1>
+            <p>做一个安静的软件工程师</p>
+            <nav>
+                <ul>
+                    <li><a href="http://115.28.210.167/blog">博客</a></li>
+                    <li><a href="https://github.com/bedisdover" target="_blank">GitHub</a></li>
+                    <li><a href="http://115.28.210.167/about">关于</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <span class="copyright">&copy; &nbsp;&nbsp; 2016 &nbsp;&nbsp; bedisdover</span>
+        </footer>
+
+    </div>
+</div>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script>
+    window.onload = function () {
+        document.body.className = '';
+    };
+
+    window.ontouchmove = function () {
+        return false;
+    };
+
+    window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+    };
+</script>
+</body>
+</html>
